@@ -1,3 +1,0 @@
-o primeiro erro está na declaração de variávies, onde a está como inteiro, mas b e c não são declaradas corretamente
-além disso, foi utilizado dois-pontos : ao final da declaração, mas devia ser utilizado ponto e vírgula ;
-a string do printf() não foi delimitada corretamente pelas aspas e os especificadores %d e as variáveis que deveriam ser utilizadas como argumentos ficaram incorretos. além de aparecer uma variável d, mas ela não foi declarada no programa
