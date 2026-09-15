@@ -1,0 +1,3 @@
+1)a)o valor exibido vai ser 2
+b)isso acontece porque a variável valor_inteiro é do tipo int, enquanto 2.97 é um número real. Ao atribuir o valor real a uma variável inteira, a parte decimal é descartada. wsse fenômeno é chamado de conversão implícita de tipos, com truncamento da parte decimal
+c)o programador pode utilizar uma variável do tipo float ou double. caso queira arredondar o valor para um inteiro, pode utilizar uma função de arredondamento, como round(), da biblioteca matemática

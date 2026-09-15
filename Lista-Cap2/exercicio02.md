@@ -1,0 +1,2 @@
+2)a)a biblioteca <conio.h> não faz parte do padrão ANSI C. Funções como getch() e getche() podem funcionar em alguns compiladores, mas não são portáveis para sistemas como Linux e macOS
+b)getchar() e putchar()
