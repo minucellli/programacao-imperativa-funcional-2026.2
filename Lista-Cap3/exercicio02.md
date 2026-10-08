@@ -1,0 +1,3 @@
+a) A variável soma foi declarada dentro das chaves do for, então seu escopo é apenas o bloco do for. Quando o programa chega ao printf fora desse bloco, a variável soma não está mais visível, então o compilador indicará que soma não foi declarada naquele ponto
+
+b) Mesmo colocando o printf dentro do for, o resultado continuaria incorreto porque: int soma = 0; é executado novamente a cada iteração. Entãi, a cada volta do laço, soma volta a valer 0, recebe apenas o quadrado do i daquela iteração e perde o valor acumulado anteriormente
